@@ -11,6 +11,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
+    "pump": "^3.0.0",
     "save-dev": "^2.0.0"
   },
   "devDependencies": {

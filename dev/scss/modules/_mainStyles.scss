@@ -1,9 +1,43 @@
 /*Main page stylings go here!*/
-body {
-  background-color: pink;
+* {
+    // border: 2px solid white;
 }
-h1{
-  color:red;
-  background-color: yellow;
-  text-align: center;
+
+body {
+  background-color: #111111;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #eff0f2;
+  line-height: 1.5;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: .25rem
+}
+
+h3 {
+  font-size: 2em;
+  margin: .25rem;
+}
+
+h4 {
+  font-size: 1.25em;
+  margin: .25rem;
+  letter-spacing: .1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:required {
+  text-decoration: none;
+}
+
+.section {
+  h4 {
+    margin: 2em 1em;
+  }
 }

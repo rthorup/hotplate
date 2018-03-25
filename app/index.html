@@ -2,19 +2,110 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome</title>
-    <link href="./css/styles.css" type="text/css" rel="stylesheet">
+    <title>Thorpus Maximus</title>
+    <link href="./css/normalize.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <nav>
+      <div class="navItem"><a href="#about">About</a></div>
+      <div class="navItem"><a href="#skills">Skills</a></div>
+      <div class="navItem"><a href="#projects">Projects</a></div>
     </nav>
-
     <main>
-      <h1>It's getting hot in here....</h1>
-      <h2>TESTING</h2>
+      <div class="icons">
+        <a href="https://github.com/rthorup" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a href="https://www.linkedin.com/in/ryan-thorup-50a2a7a" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+      </div>
+      <div class="jumbotron">
+        <div class="header" id="myName">Ryan Thorup</div>
+        <div class="header" id="titleDescription">Web Developer</div>
+        <!-- <div class="header"> </div> -->
+      </div>
+      <div class="section">
+        <h1 id="about">About :</h1>
+        <h4>I'm a new web dev in KC looking to make an immediate impact with a new team. After spending the better part of a decade in education with five of those years spent living overseas, I've decided I'm ready for a new opportunity. I've always loved to learn new things, whether it's a new skill, learning to adapt to a new culture, or just increasing my trove of worthless trivia</h4>
+        <h4>In my last postion, I was able to work with our website and help make a web app. It got me interested in web development, which is an area in which things are constantly changing and the combination or creative and functional problem solving is something that I enjoyed right away.
+        <h4>If I'm not building something or figuring out how things work, you can find me playing trivia or talking GOT lore.</h4>
+      </div>
+      <div class="section">
+        <h1 id="skills">Skills :</h1>
+        <div class="list">
+          <li>AJAX</li>
+          <li>CSS3</li>
+          <li>Express</li>
+          <li>Github</li>
+          <li>Heroku</li>
+          <li>HTML5</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>Node.js</li>
+          <li>Vue.js</li>
+        </div>
+        <h4>In addition to the above, I have experience with other node modules like HBS, front-end frameworks like Bulma and Vuetify, some database work including MongoDB, MySQL, and Firebase. I'm constantly trying to learn more about all things web and programming related.</h4>
+        <h4>I'm currently working on a project involving CodeIgnite, Drupal, and PHP. Stay tuned for more...<h4>
+      </div>
+      <div class="section">
+        <h1 id="projects">Projects :</h1>
+        <div class="rowImage">
+          <h1 class="mobileText">Game of Clones</h1>
+          <div class="image">
+            <div class="text">
+              <h1>Game of Clones</h1>
+            </div>
+            <a href="https://tallgrassschool.com/cohort_1/students/rt/gameofclones/" target="_blank"><div class="hovered project1">
+              <h3>A lightweight CSS framework based on flexbox model with a GOT vibe.</h3>
+            </div></a>
+          </div>
+          <h1 class="mobileText">Worthless Trivia</h1>
+          <div class="image">
+            <div class="text">
+              <h1>Worthless Trivia</h1>
+            </div>
+            <a href="https://tallgrassschool.com/cohort_1/students/rt/trivia/firstRun.html" target="_blank"><div class="hovered project2">
+              <h3>Vanilla JS trivia game using AJAX calls and local storage</h3>
+            </div></a>
+          </div>
+        </div>
+        <div class="rowImage">
+          <h1 class="mobileText">Hotplate</h1>
+          <div class="image">
+            <div class="text">
+              <h1>Hotplate</h1>
+            </div>
+            <a href="https://github.com/rthorup/hotplate/tree/master" target="_blank"><div class="hovered project3">
+              <h3>A personal boilerplate to get projects up and running quickly.</h3>
+            </div></a>
+          </div>
+          <h1 class="mobileText">Backend Auth</h1>
+          <div class="image">
+            <div class="text">
+              <h1>Backend Auth</h1>
+            </div>
+            <a href="https://pacific-mesa-47141.herokuapp.com/" target="_blank"><div class="hovered project4">
+              <h3>Auth built with Passport.js and using sessions, MySQL, & HBS</h3>
+            </div></a>
+          </div>
+        </div>
+        <div class="rowImage">
+          <h1 class="mobileText">Settle Ours</h1>
+          <div class="image">
+            <div class="text">
+              <h1>Settle Ours</h1>
+            </div>
+            <a href="https://settle-ours-app.herokuapp.com/" target="_blank"><div class="hovered project5">
+              <h3>An SPA to track Settlers of Catan Games. Uses Vue, Firebase Auth, ExpressJS, MySQL and more</h3>
+            </div></a>
+          </div>
+        </div>
+      </div>
     </main>
-
     <footer>
     </footer>
 

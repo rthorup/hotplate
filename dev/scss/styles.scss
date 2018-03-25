@@ -1,8 +1,10 @@
 //importing modules. mainly breakpoints but can add more
-@import 'modules/_breakpoints.scss';
+
 @import 'modules/_mainStyles.scss';
 //importing partials. make main changes in these if possible
 @import 'partials/_nav.scss';
 @import 'partials/_header.scss';
 @import 'partials/_main.scss';
 @import 'partials/_footer.scss';
+
+@import 'modules/_breakpoints.scss';

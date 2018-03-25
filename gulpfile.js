@@ -12,6 +12,8 @@ const autoprefixer = require('gulp-autoprefixer');
 //keeping you live as changes are saved
 const browserSync = require('browser-sync').create();
 
+const pump = require('pump');
+
 //runs all sass and css related functions, refreshes browser
 gulp.task('css', function() {
   return gulp.src('dev/scss/*.scss')
@@ -24,19 +26,20 @@ gulp.task('css', function() {
       stream: true,
       once: true
     }));
+
 })
 
 //pumps final html files into app
 gulp.task('html', function() {
-  gulp.src('./dev/*.html')
-    .pipe(gulp.dest('./app'))
+  gulp.src('/dev/*.html')
+    .pipe(gulp.dest('/app'))
 })
 
 //minimized js files, refreshes browser
 gulp.task('minify', function() {
-  gulp.src('dev/js/*.js')
+  gulp.src('/dev/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('./app/js'))
+    .pipe(gulp.dest('/app/js'))
     .pipe(browserSync.reload({
       stream: true,
       once: true
