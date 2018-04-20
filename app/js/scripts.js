@@ -1,1 +1,1 @@
-console.log("Hello World");var x="hwllo",people=["one","two","three"];
+"use strict";console.log("Hello World");var x="hwllo",people=["one","two","three"],y=1,myFunction=function(o){console.log(o)};
