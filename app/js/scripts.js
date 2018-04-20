@@ -1,1 +1,1 @@
-console.log("so take off all your nodes");
+console.log("Hello World");var x="hwllo",people=["one","two","three"];
